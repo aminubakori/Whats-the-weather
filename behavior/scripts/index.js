@@ -39,7 +39,7 @@ exports.handle = (client) => {
     },
 
     prompt() {
-      client.addResponse('greeting');
+      client.addTextResponse('Hello Human, I\'m Bot');
       client.done();
     }
   })
@@ -50,7 +50,7 @@ exports.handle = (client) => {
     },
 
     prompt() {
-      client.addResponse('goodbye');
+      client.addTextResponse('See ya later!');
       client.done();
     }
   })
