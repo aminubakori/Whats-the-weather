@@ -1,0 +1,15 @@
+{
+  "name": "Whats-the-weather",
+  "version": "0.0.0",
+  "description": "A simple weather example app",
+  "main": "behavior/scripts/index.js",
+  "scripts": {
+    "start": "initai-dev-server"
+  },
+  "author": "<my-name> <<my-email-address>>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "initai-dev-server": "^0.4.8",
+    "initai-node": "~0.0.7"
+  }
+}
