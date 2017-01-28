@@ -20,7 +20,7 @@ exports.handle = (client) => {
 
       client.done()
     }
-  })
+  })   
 
   const untrained = client.createStep({
     satisfied() {
